@@ -12,6 +12,7 @@
       <class name="com.codebind.TC001"/>
       <class name="com.codebind.TC002"/>
       <class name="com.codebind.TC003"/>
+      <class name="com.codebind.TC004"/>
       
     </classes>
   </test> <!-- Test -->
