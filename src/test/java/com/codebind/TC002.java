@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 public class TC002 {
 	
 	@Test
-	public void NativeAppAndroid()
+	public void DeleteOrder()
 	{
-		System.out.println("NativeAppAndroid... TC002");
+		System.out.println("DeleteOrder... TC002");
 	}
 
 }

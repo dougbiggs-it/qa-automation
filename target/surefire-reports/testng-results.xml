@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-09T12:31:38 EST" name="Suite" finished-at="2020-01-09T12:31:38 EST" duration-ms="63">
+  <suite started-at="2020-01-13T14:40:07 EST" name="Suite" finished-at="2020-01-13T14:40:07 EST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2020-01-09T12:31:38 EST" name="Test" finished-at="2020-01-09T12:31:38 EST" duration-ms="63">
-      <class name="com.codebind.TC002">
-        <test-method signature="NativeAppAndroid()[pri:0, instance:com.codebind.TC002@5c5eefef]" started-at="2020-01-09T12:31:38 EST" name="NativeAppAndroid" finished-at="2020-01-09T12:31:38 EST" duration-ms="9" status="PASS">
+    <test started-at="2020-01-13T14:40:07 EST" name="Test" finished-at="2020-01-13T14:40:07 EST" duration-ms="64">
+      <class name="com.codebind.TC001">
+        <test-method signature="CreateOrder()[pri:0, instance:com.codebind.TC001@7494f96a]" started-at="2020-01-13T14:40:07 EST" name="CreateOrder" finished-at="2020-01-13T14:40:07 EST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NativeAppAndroid -->
+        </test-method> <!-- CreateOrder -->
+      </class> <!-- com.codebind.TC001 -->
+      <class name="com.codebind.TC003">
+        <test-method signature="PrintOrder()[pri:0, instance:com.codebind.TC003@2e377400]" started-at="2020-01-13T14:40:07 EST" name="PrintOrder" finished-at="2020-01-13T14:40:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintOrder -->
+      </class> <!-- com.codebind.TC003 -->
+      <class name="com.codebind.TC002">
+        <test-method signature="DeleteOrder()[pri:0, instance:com.codebind.TC002@561b6512]" started-at="2020-01-13T14:40:07 EST" name="DeleteOrder" finished-at="2020-01-13T14:40:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrder -->
       </class> <!-- com.codebind.TC002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
