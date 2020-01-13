@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="102" started-at="2020-01-08T11:16:55 EST" finished-at="2020-01-08T11:16:55 EST">
+  <suite name="Suite" duration-ms="62" started-at="2020-01-13T14:52:36 EST" finished-at="2020-01-13T14:52:36 EST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="102" started-at="2020-01-08T11:16:55 EST" finished-at="2020-01-08T11:16:55 EST">
-      <class name="com.codebind.TC002">
-        <test-method status="PASS" signature="NativeAppAndroid()[pri:0, instance:com.codebind.TC002@5d76b067]" name="NativeAppAndroid" duration-ms="15" started-at="2020-01-08T11:16:55 EST" finished-at="2020-01-08T11:16:55 EST">
+    <test name="Test" duration-ms="62" started-at="2020-01-13T14:52:36 EST" finished-at="2020-01-13T14:52:36 EST">
+      <class name="com.codebind.TC001">
+        <test-method status="PASS" signature="CreateOrder()[pri:0, instance:com.codebind.TC001@4e7dc304]" name="CreateOrder" duration-ms="11" started-at="2020-01-13T14:52:36 EST" finished-at="2020-01-13T14:52:36 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- NativeAppAndroid -->
+        </test-method> <!-- CreateOrder -->
+      </class> <!-- com.codebind.TC001 -->
+      <class name="com.codebind.TC003">
+        <test-method status="PASS" signature="PrintOrder()[pri:0, instance:com.codebind.TC003@10bbd20a]" name="PrintOrder" duration-ms="1" started-at="2020-01-13T14:52:36 EST" finished-at="2020-01-13T14:52:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintOrder -->
+      </class> <!-- com.codebind.TC003 -->
+      <class name="com.codebind.TC002">
+        <test-method status="PASS" signature="DeleteOrder()[pri:0, instance:com.codebind.TC002@64729b1e]" name="DeleteOrder" duration-ms="1" started-at="2020-01-13T14:52:36 EST" finished-at="2020-01-13T14:52:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteOrder -->
       </class> <!-- com.codebind.TC002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
